@@ -1,0 +1,24 @@
+
+POST http://127.0.0.1:8181/links
+
+{
+    # "url": "http://127.0.0.1:8181/links/ASDasd"
+    # "url": "http://127.0.0.1:8181/links/asdasd"
+    # "url": "http://127.0.0.1:8181/links"
+    "url": "aaa"
+}
+
+
+get http://127.0.0.1:8181/links/SQp5WLpWHg
+
+
+
+get http://127.0.0.1:8181/links?offset=0&limit=10
+
+
+
+delete http://127.0.0.1:8181/links/MUJAAFagM2
+
+
+
+get http://127.0.0.1:8181/links/SQp5WLpWHg/stats
